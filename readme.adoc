@@ -1,9 +1,11 @@
 = VideoShop - A Salespoint example project
 :experimental:
 
-image:https://github.com/st-tu-dresden/videoshop/workflows/Build%20Maven%20artifacts/badge.svg["Build Status", link="https://github.com/st-tu-dresden/videoshop/actions"]
+image:https://github.com/HOME-programming-pub/videoshop/workflows/Build%20Maven%20artifacts/badge.svg["Build Status", link="https://github.com/HOME-programming-pub/videoshop/actions"]
 
-Purpose of this sample project is to make students familiar with basic technologies they're going to use during the Software Engineering Lab at Technical University of Dresden.
+This project is a fork of https://github.com/st-tu-dresden/videoshop of TU Dresden, where it is used to make students familiar with basic technologies they're going to use during the Software Engineering Lab.
+
+At Hochschule Merseburg, this project is used for exactly the same purpose in the Software Project (module Anwendungsprogrammierung/Programmierprojekt). 
 
 ## Quickstart
 
@@ -12,7 +14,7 @@ Also, note that you have to run `mvnw.cmd` instead of `./mvnw` if you run Window
 
 [source, shell]
 ----
-$ git clone https://github.com/st-tu-dresden/videoshop
+$ git clone https://github.com/HOME-programming-pub/videoshop
 $ cd videoshop
 $ ./mvnw clean package
 $ ./mvnw spring-boot:run
