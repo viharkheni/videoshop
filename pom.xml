@@ -28,7 +28,16 @@
 			<version>3.6.0</version>
 			<scope>runtime</scope>
 		</dependency>
-
+		
+		<!-- 
+			exposes runtime information on the application that can be displayed 
+		 	by the Spring Boot Dashboard (VS Code) 
+		-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+	
 	</dependencies>
 
 	<repositories>
